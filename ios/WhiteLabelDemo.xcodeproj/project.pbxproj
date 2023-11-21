@@ -13,7 +13,16 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		386185BEE99C7F35AACBD83F /* libPods-WhiteLabelDemo-WhiteLabelDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9228A306E241FE9A1703D0A8 /* libPods-WhiteLabelDemo-WhiteLabelDemoTests.a */; };
 		6CB035BE0FAE850C363FB678 /* libPods-WhiteLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBCD182306AF39665D70AFC /* libPods-WhiteLabelDemo.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		75D2CF7C2B0BF81100F66D8A /* LaunchScreenFree.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D2CF7B2B0BF81100F66D8A /* LaunchScreenFree.storyboard */; };
+		75D2CF832B0C010700F66D8A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		75D2CF842B0C010700F66D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		75D2CF862B0C010700F66D8A /* libPods-WhiteLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EBCD182306AF39665D70AFC /* libPods-WhiteLabelDemo.a */; };
+		75D2CF892B0C010700F66D8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		75D2CF8B2B0C010700F66D8A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04A6F0C3DDFF4896A39774CE /* OpenSans-Regular.ttf */; };
+		75D2CF952B0C01AF00F66D8A /* LaunchScreenPro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D2CF942B0C01AF00F66D8A /* LaunchScreenPro.storyboard */; };
+		75D2CF9D2B0C2E8500F66D8A /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75D2CF9C2B0C2E8100F66D8A /* Quicksand-Regular.ttf */; };
+		75D2CF9E2B0C2E8A00F66D8A /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75D2CF9C2B0C2E8100F66D8A /* Quicksand-Regular.ttf */; };
+		A2FD009050D945D0BEECF5E8 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04A6F0C3DDFF4896A39774CE /* OpenSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +39,21 @@
 		00E356EE1AD99517003FC87E /* WhiteLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* WhiteLabelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteLabelDemoTests.m; sourceTree = "<group>"; };
+		04A6F0C3DDFF4896A39774CE /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* WhiteLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = WhiteLabelDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = WhiteLabelDemo/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WhiteLabelDemo/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = WhiteLabelDemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = WhiteLabelDemo/main.m; sourceTree = "<group>"; };
 		355E4AA42C9C99175020D211 /* Pods-WhiteLabelDemo-WhiteLabelDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-WhiteLabelDemoTests.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelDemo-WhiteLabelDemoTests/Pods-WhiteLabelDemo-WhiteLabelDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		50822277AF0073A8A9BED99E /* Pods-WhiteLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		75D2CF7B2B0BF81100F66D8A /* LaunchScreenFree.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreenFree.storyboard; sourceTree = "<group>"; };
+		75D2CF922B0C010700F66D8A /* WhiteLabelDemoPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteLabelDemoPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D2CF942B0C01AF00F66D8A /* LaunchScreenPro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreenPro.storyboard; sourceTree = "<group>"; };
+		75D2CF982B0C2CE100F66D8A /* WhiteLabelDemoPro.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WhiteLabelDemoPro.plist; sourceTree = "<group>"; };
+		75D2CF9C2B0C2E8100F66D8A /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../assets/fonts/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		7EBCD182306AF39665D70AFC /* libPods-WhiteLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = WhiteLabelDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9228A306E241FE9A1703D0A8 /* libPods-WhiteLabelDemo-WhiteLabelDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhiteLabelDemo-WhiteLabelDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD41A4054FC444B512B60D0 /* Pods-WhiteLabelDemo-WhiteLabelDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo-WhiteLabelDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-WhiteLabelDemo-WhiteLabelDemoTests/Pods-WhiteLabelDemo-WhiteLabelDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A3B0F3A2D1B0E3D23A0E2449 /* Pods-WhiteLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabelDemo.release.xcconfig"; path = "Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +74,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CB035BE0FAE850C363FB678 /* libPods-WhiteLabelDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2CF852B0C010700F66D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2CF862B0C010700F66D8A /* libPods-WhiteLabelDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +108,9 @@
 		13B07FAE1A68108700A75B9A /* WhiteLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				75D2CF7D2B0BF8CB00F66D8A /* Supporting Files */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = WhiteLabelDemo;
@@ -104,6 +124,18 @@
 				9228A306E241FE9A1703D0A8 /* libPods-WhiteLabelDemo-WhiteLabelDemoTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D2CF7D2B0BF8CB00F66D8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				75D2CF982B0C2CE100F66D8A /* WhiteLabelDemoPro.plist */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				75D2CF942B0C01AF00F66D8A /* LaunchScreenPro.storyboard */,
+				75D2CF7B2B0BF81100F66D8A /* LaunchScreenFree.storyboard */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E0875C6CD5E44E8ABB387CFF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -133,6 +166,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* WhiteLabelDemo.app */,
 				00E356EE1AD99517003FC87E /* WhiteLabelDemoTests.xctest */,
+				75D2CF922B0C010700F66D8A /* WhiteLabelDemoPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,6 +180,15 @@
 				355E4AA42C9C99175020D211 /* Pods-WhiteLabelDemo-WhiteLabelDemoTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0875C6CD5E44E8ABB387CFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75D2CF9C2B0C2E8100F66D8A /* Quicksand-Regular.ttf */,
+				04A6F0C3DDFF4896A39774CE /* OpenSans-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,9 +215,9 @@
 			productReference = 00E356EE1AD99517003FC87E /* WhiteLabelDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* WhiteLabelDemo */ = {
+		13B07F861A680F5B00A75B9A /* WhiteLabelDemoFree */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemo" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemoFree" */;
 			buildPhases = (
 				9F7CACA5D4BEFE62B375683B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -189,9 +232,31 @@
 			);
 			dependencies = (
 			);
-			name = WhiteLabelDemo;
+			name = WhiteLabelDemoFree;
 			productName = WhiteLabelDemo;
 			productReference = 13B07F961A680F5B00A75B9A /* WhiteLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D2CF7F2B0C010700F66D8A /* WhiteLabelDemoPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D2CF8F2B0C010700F66D8A /* Build configuration list for PBXNativeTarget "WhiteLabelDemoPro" */;
+			buildPhases = (
+				75D2CF802B0C010700F66D8A /* [CP] Check Pods Manifest.lock */,
+				75D2CF812B0C010700F66D8A /* Start Packager */,
+				75D2CF822B0C010700F66D8A /* Sources */,
+				75D2CF852B0C010700F66D8A /* Frameworks */,
+				75D2CF872B0C010700F66D8A /* Resources */,
+				75D2CF8C2B0C010700F66D8A /* Bundle React Native code and images */,
+				75D2CF8D2B0C010700F66D8A /* [CP] Embed Pods Frameworks */,
+				75D2CF8E2B0C010700F66D8A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteLabelDemoPro;
+			productName = WhiteLabelDemo;
+			productReference = 75D2CF922B0C010700F66D8A /* WhiteLabelDemoPro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -224,8 +289,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* WhiteLabelDemo */,
+				13B07F861A680F5B00A75B9A /* WhiteLabelDemoFree */,
 				00E356ED1AD99517003FC87E /* WhiteLabelDemoTests */,
+				75D2CF7F2B0C010700F66D8A /* WhiteLabelDemoPro */,
 			);
 		};
 /* End PBXProject section */
@@ -242,8 +308,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				75D2CF9D2B0C2E8500F66D8A /* Quicksand-Regular.ttf in Resources */,
+				75D2CF7C2B0BF81100F66D8A /* LaunchScreenFree.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A2FD009050D945D0BEECF5E8 /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D2CF872B0C010700F66D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2CF9E2B0C2E8A00F66D8A /* Quicksand-Regular.ttf in Resources */,
+				75D2CF952B0C01AF00F66D8A /* LaunchScreenPro.storyboard in Resources */,
+				75D2CF892B0C010700F66D8A /* Images.xcassets in Resources */,
+				75D2CF8B2B0C010700F66D8A /* OpenSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +413,97 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo-WhiteLabelDemoTests/Pods-WhiteLabelDemo-WhiteLabelDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		75D2CF802B0C010700F66D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhiteLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D2CF812B0C010700F66D8A /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8082}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75D2CF8C2B0C010700F66D8A /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		75D2CF8D2B0C010700F66D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75D2CF8E2B0C010700F66D8A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhiteLabelDemo/Pods-WhiteLabelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9F7CACA5D4BEFE62B375683B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,12 +587,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		75D2CF822B0C010700F66D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D2CF832B0C010700F66D8A /* AppDelegate.mm in Sources */,
+				75D2CF842B0C010700F66D8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* WhiteLabelDemo */;
+			target = 13B07F861A680F5B00A75B9A /* WhiteLabelDemoFree */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,11 +662,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50822277AF0073A8A9BED99E /* Pods-WhiteLabelDemo.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_free;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = WhiteLabelDemo/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LAUNCH_SCREEN = LaunchScreenFree;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,7 +678,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelabeldemo.free;
 				PRODUCT_NAME = WhiteLabelDemo;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -510,10 +690,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A3B0F3A2D1B0E3D23A0E2449 /* Pods-WhiteLabelDemo.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_free;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = WhiteLabelDemo/Info.plist;
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LAUNCH_SCREEN = LaunchScreenFree;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,8 +705,62 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelabeldemo.free;
 				PRODUCT_NAME = WhiteLabelDemo;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		75D2CF902B0C010700F66D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50822277AF0073A8A9BED99E /* Pods-WhiteLabelDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_pro;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Supporting Files/WhiteLabelDemoPro.plist";
+				LAUNCH_SCREEN = LaunchScreenPro;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelabeldemo.pro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		75D2CF912B0C010700F66D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B0F3A2D1B0E3D23A0E2449 /* Pods-WhiteLabelDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_pro;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "Supporting Files/WhiteLabelDemoPro.plist";
+				LAUNCH_SCREEN = LaunchScreenPro;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelabeldemo.pro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -697,11 +932,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemo" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "WhiteLabelDemoFree" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D2CF8F2B0C010700F66D8A /* Build configuration list for PBXNativeTarget "WhiteLabelDemoPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D2CF902B0C010700F66D8A /* Debug */,
+				75D2CF912B0C010700F66D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

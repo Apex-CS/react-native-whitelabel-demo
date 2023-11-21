@@ -1,0 +1,62 @@
+# Fastfile
+
+# BASE TEMPLATE, this has not been finished nor tested
+
+variants = ["free", "pro"]
+
+# Define Android lane for uploading to App Center
+lane :android_upload_to_appcenter do
+  # Iterate through each Android whitelabel configuration
+  variants.each do |whitelabel|
+    android_build_and_upload(whitelabel)
+  end
+end
+
+# Define iOS lane for uploading to App Center
+lane :ios_upload_to_appcenter do
+  # Iterate through each iOS whitelabel configuration
+  variants.each do |whitelabel|
+    ios_build_and_upload(whitelabel)
+  end
+end
+
+# Define a lane for building and uploading Android app
+private_lane :android_build_and_upload do |whitelabel|
+  gradle(task: "clean")
+
+  gradle(
+    task: "assemble",
+    build_type: "Release",
+    flavor: whitelabel
+  )
+
+  # Upload the APK to App Center
+  appcenter_upload(
+    api_token: "your_app_center_api_token",
+    owner_name: "your_app_center_owner_name",
+    app_name: "your_app_center_app_name_android",
+    file: "app/build/outputs/apk/release/app-release.apk"
+  )
+end
+
+# Define a lane for building and uploading iOS app
+private_lane :ios_build_and_upload do |whitelabel|
+  gym(
+    scheme: "YourAppScheme",
+    configuration: "Release",
+    export_method: "app-store",
+    export_options: {
+      method: "app-store",
+      signingStyle: "automatic"
+    },
+    export_xcargs: "-allowProvisioningUpdates"
+  )
+
+  # Upload the IPA to App Center
+  appcenter_upload(
+    api_token: "your_app_center_api_token",
+    owner_name: "your_app_center_owner_name",
+    app_name: "your_app_center_app_name_ios",
+    file: "path/to/YourAppScheme.ipa"
+  )
+end

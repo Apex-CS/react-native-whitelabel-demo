@@ -101,6 +101,27 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+
+    flavorDimensions 'partner'
+    productFlavors {
+        free {
+            dimension 'partner'
+            applicationIdSuffix '.free'
+            manifestPlaceholders = [appName: "@string/app_name",
+                                    icon: "@mipmap/ic_launcher",
+                                    roundIcon: "@mipmap/ic_launcher",
+                                    theme: "@style/BootTheme",]
+        }
+
+        pro {
+            dimension 'partner'
+            applicationIdSuffix '.pro'
+            manifestPlaceholders = [appName: "@string/app_name",
+                                    icon: "@mipmap/ic_launcher",
+                                    roundIcon: "@mipmap/ic_launcher",
+                                    theme: "@style/BootTheme",]
+        }
+    }
 }
 
 dependencies {
