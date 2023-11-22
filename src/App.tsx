@@ -45,7 +45,7 @@ function App(): JSX.Element {
           Version from env '{process.env.BUILD_CONFIG}'
         </Text>
         <Text style={styles.sectionTitle}>
-          Envirorment name '{config.appName}' IIII y
+          Envirorment name '{config.appName}'
         </Text>
         <Text style={styles.txtSwapping}>font/color swapping example</Text>
       </View>
